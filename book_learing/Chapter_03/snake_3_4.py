@@ -1,0 +1,22 @@
+names = ['Kanye West' , 'The weeknd' , 'Justin Bibber ']
+print (f'I want {names[0] } come to my birthday party')
+print (f"{names[2]} can't come to my birthday party")
+del names[2]
+names.append( 'Kyrie Irving')
+print(names)
+names.insert(0, 'Tylor Swift')
+names.insert(2 , 'Jay-z')
+names.append('Micheal Jackson')
+print (names)
+print ("Sorry guys ,I can only invite 2 peoples.")
+The_parson_cant_come = names.pop(2)
+print(f'Sorry about that {The_parson_cant_come}')
+The_parson_cant_come = names.pop(3)
+print(f'Sorry about that {The_parson_cant_come}')
+The_parson_cant_come = names.pop(1)
+print(f'Sorry about that {The_parson_cant_come}')
+The_parson_cant_come = names.pop(0)
+print(f'Sorry about that {The_parson_cant_come}')
+print(names)
+print (f'I invite {len(names)} people come to my birthday party')
+
