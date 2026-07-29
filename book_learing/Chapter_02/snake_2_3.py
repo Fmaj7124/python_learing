@@ -1,1 +1,0 @@
-print ('Kanye West once said:“Everybody wanted to know what I would do if I didn’t win… I guess we’ll never know.”')
