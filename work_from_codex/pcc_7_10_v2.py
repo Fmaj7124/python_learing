@@ -7,9 +7,10 @@ while True:
     #将信息添入字典（places）
     places[name] = place
     #询问是否继续
-    repeat = input("你是否继续继续该程序(是/否)")
+    repeat = input("你是否继续该程序(是/否)")
     if repeat == '否':
         break
 #打印最终调查结果
-print('调查结果为：')
-print(f'{places}')
+print('最终调查结果为：')
+for name , place in places.items():
+    print(f'{name}想要去{place}')

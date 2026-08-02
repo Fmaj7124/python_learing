@@ -14,5 +14,6 @@ while True:
     if page1 == 'q':
         break
     page1 = int(page1)
+    #传入获取到的实参
     list_book = lend_book(person1 , book1 , page1 )
     print(list_book)

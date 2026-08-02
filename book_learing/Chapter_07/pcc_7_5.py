@@ -6,7 +6,7 @@ while True:
     age = int(age)
     if age <3:
         price=0
-        print(f'You need to pay {price}')
+        print('Free')
     elif age <13:
         price = 10
         print(f'You need to pay {price}')
