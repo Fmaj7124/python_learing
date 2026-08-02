@@ -1,5 +1,6 @@
 def player_information (name , job , level = None):
     player_card ={'name' : name , 'job' : job , }
+    # 不能用 if level判断:，因为 0 会被当成假；is not None 只判断“有没有传值”
     if level is not None:
         level = int(level)
         player_card['level'] = level
