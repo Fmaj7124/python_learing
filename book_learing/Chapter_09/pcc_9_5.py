@@ -26,9 +26,9 @@ class User:
     def reset_login_attempts(self):
         self.login_attempts=0
 #创建不同实例
-user1 = User('Kanye' , 'West' , '49' , 'rapper/artist' ,10)
-user2 = User('Taylor' , 'Swift' , '37' , 'singer' , 40)
-user3 = User('Tom' , 'Holland' , '30' , 'actor' , 30)
+user1 = User('Kanye' , 'West' , '49' , 'rapper/artist')
+user2 = User('Taylor' , 'Swift' , '37' , 'singer')
+user3 = User('Tom' , 'Holland' , '30' , 'actor' )
 
 #test
 user1.show_login_attempts()
