@@ -1,4 +1,4 @@
-homework = ['小明', '小红', '小刚', '小明', '小丽']
+-homework = ['小明', '小红', '小刚', '小明', '小丽']
 graded = []
 def marking(homework , graded):
     while homework:
